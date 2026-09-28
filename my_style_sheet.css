@@ -1,7 +1,7 @@
 button {
-    background: #FFD700;
-    color: #053F5E;
-    border: solid #03293d 3px;
+    background: #0c1570;
+    color: #ff9d00;
+    border: solid #03293d 0px;
     display: inline-block;
     cursor: pointer;
     line-height: 4px;
@@ -21,8 +21,22 @@ button {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    margin: 0px auto;
 }
 
 ol{
  font-family:'Segoe UI';
+}
+
+.text-box {
+    border: 0px solid #FFD700; /* Thickness, style (solid/dashed/dotted), and color */
+    padding: 5px; /* Space between the text and the border */
+    margin: 10px auto; /* Space outside the box (top and bottom) */
+    background-color: #0c1570; /* Optional: Background color inside the box */
+    border-radius: 15px; /* Optional: Rounds the corners of the box */
+    width: 80%;/* Width of the text box */
+}
+
+.centerTable {
+    margin: 0px auto;
 }
